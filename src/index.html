@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sudoku</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sudoku</h2>
+      <form id = "fill-box">
+      <table> 
+        <tr class="row1">
+          <td id ="0"><input type="number" class="mytext" value="9" min="9" max="9"></td>
+          <td id ="1"><input type="number" class="mytext" value="8" min="8" max="8"></td>
+          <td id ="2"><input type="number" class="mytext" value="5" min="5" max="5"></td>
+          <td id="3"><input type="number"  class="mytext" min="1" max="9"></td>
+          <td id="4"><input type="number" class="mytext" min="1" max="9"></td>
+          <td id="5"><input type="number" class="mytext" value="2" min="2" max="2"></td>
+          <td id="6"><input type="number" class="mytext" value="1" min="1" max="1"></td>
+          <td id="7"><input type="number" class="mytext" min="1" max="9"></td>
+          <td id="8"><input type="number" class="mytext" min="1" max="9"></td>
+        </tr>
+        <tr class="row2">
+          <td id="9"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="10"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="11"><input type="number" class="mytext" value="1" min="1" max="1"></td>
+          <td id="12"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="13"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="14"><input type="number" class="mytext" value="3" min="3" max="3"></td>
+          <td id="15"><input type="number" class="mytext" value="8" min="8" max="8"></td>
+          <td id="16"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="17"><input type="number"class="mytext" min="1" max="9"></td>
+        </tr>
+        <tr class="row3">
+          <td id="18"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="19"><input type="number"class="mytext" min="1" max="9"></td>          
+          <td id="20"><input type="number"class="mytext" min="1" max="9"></td>        
+          <td id="21"><input type="number"class="mytext" min="1" max="9"></td>          
+          <td id="22"><input type="number"class="mytext" min="1" max="9"></td>
+          <td id="23"><input type="number"class="mytext" min="1" max="9"></td>  
+          <td id="24"><input type="number" class="mytext" value="2" min="2" max="2"></td>
+          <td id="25"><input type="number" class="mytext" value="9" min="9" max="9"></td>
+          <td id="26"><input type="number" class="mytext" value="4" min="4" max="4"></td>
+          </tr>
+        <tr class="row4">
+          <td id="27"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="28"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="29"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="30"><input type="number" class="mytext" value="5" min="5" max="5"></td>
+          <td id="31"><input type="number" class="mytext" value="4" min="4" max="4"></td>
+          <td id="32"><input type="number" class="mytext" value="8" min="8" max="8"></td>
+          <td id="33"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="34"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="35"><input type="number" class="mytext" value="2" min="2" max="2"></td>
+        </tr>
+        <tr class="row5">
+            <td id="36"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="37"><input type="number" class="mytext" value="5" min="5" max="5"></td>
+          <td id="38"><input type="number" class="mytext" value="3" min="3" max="3"></td>
+          <td id="39"><input type="number" class="mytext" value="1" min="1" max="1"></td>
+          <td id="40"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="41"><input type="number" class="mytext" value="9" min="9" max="9"></td>
+          <td id="42"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="43"><input type="number" class="mytext" value="7" min="7" max="7"></td>
+          <td id="44"><input type="number"class="mytext" min="1" max="9"></td> 
+        </tr>
+        <tr class="row6">
+          <td id="45"><input type="number"class="mytext" min="1" max="9"></td> 
+          <td id="46"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="47"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="48"><input type="number" class="mytext" value="2" min="2" max="2"></td>
+          <td id="49"><input type="number" class="mytext" value="3" min="3" max="3"></td>
+          <td id="50"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="51"><input type="number"  class="mytext" min="1" max="9"></td>          
+          <td id="52"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="53"><input type="number"  class="mytext" min="1" max="9"></td> 
+        </tr>
+        <tr class="row7">
+          <td id="54"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="55"><input type="number" class="mytext" value="9" min="9" max="9"></td>
+          <td id="56"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="57"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="58"><input type="number" class="mytext" value="8" min="8" max="8"></td>
+          <td id="59"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="60"><input type="number" class="mytext" value="6" min="6" max="6"></td>
+          <td id="61"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="62"><input type="number"  class="mytext" min="1" max="9"></td> 
+        </tr>
+        <tr class="row8">
+          <td id="63"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="64"><input type="number" class="mytext" value="1" min="1" max="1"></td>
+          <td id="65"><input type="number" class="mytext" value="7" min="7" max="7"></td>
+          <td id="66"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="67"><input type="number" class="mytext" value="2" min="2" max="2"></td>
+          <td id="68"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="69"><input type="number"  class="mytext" min="1" max="9"></td>           
+          <td id="70"><input type="number"  class="mytext" min="1" max="9"></td> 
+          <td id="71"><input type="number" class="mytext" value="5" min="5" max="5"></td>
+        </tr>
+        <tr class="row9">
+          <td id="72"><input type="number" class="mytext" value="3" min="3" max="3"></td>
+          <td id="73"><input type="number"  class="mytext" min="1" max="9"></td>           
+          <td id="74"><input type="number"  class="mytext" min="1" max="9"></td>          
+          <td id="75"><input type="number"  class="mytext" min="1" max="9"></td>           
+          <td id="76"><input type="number" class="mytext" value="5" min="5" max="5"></td>
+          <td id="77"><input type="number" class="mytext" value="6" min="6" max="6"></td>
+          <td id="78"><input type="number" class="mytext" value="7" min="7" max="7"></td>
+          <td id="79"><input type="number"  class="mytext" min="1" max="9"></td>           
+          <td id="80"><input type="number"  class="mytext" min="1" max="9"></td>           
+
+        </tr>
+      </table>
+      <br>
+        <!-- <div class="row">
+          <div class="col-md-1">
+          <input type="checkbox" name="one" value="one">1
+          </div>
+          <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">2
+          </div>
+          <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">3
+          </div>
+          <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">4
+          </div>
+          <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">5
+          </div>
+          <div class="col-md-1">
+             <input type="checkbox" name="one" value="one">6
+          </div>
+          <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">7
+          </div>
+          <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">8
+          </div>
+         <div class="col-md-1">
+            <input type="checkbox" name="one" value="one">9
+          </div><br> -->
+          <button type="submit" class="btn btn-info">Check Answer</button>
+      </form>
+    </div>
+  </body>
+</html>
