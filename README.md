@@ -36,4 +36,4 @@ _Web application to verify Sudoku answers._
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2018 ** _Kenny Wolfenberger **
+Copyright (c) 2019 ** _Kenny Wolfenberger **
